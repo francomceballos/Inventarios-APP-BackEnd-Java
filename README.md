@@ -50,7 +50,7 @@ To run this application locally, follow these steps:
     spring.jpa.hibernate.ddl-auto=update
 ```
     
-4. ** Run the project using Your IDE **
+4. **Run the project using Your IDE**
 
     Open the project:
 

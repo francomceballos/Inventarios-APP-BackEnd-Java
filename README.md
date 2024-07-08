@@ -52,11 +52,11 @@ To run this application locally, follow these steps:
     
 4. **Run the project using Your IDE**
 
-    Open the project:
+    **Open the project:**
 
     Open your preferred IDE (like IntelliJ IDEA, Eclipse, or VS Code).
 
-    Build and run the application:
+    **Build and run the application:**
         Import the project into your IDE.
         Build the project using Maven.
         Run the application as a Spring Boot application.

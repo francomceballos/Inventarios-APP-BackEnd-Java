@@ -31,7 +31,8 @@ To run this application locally, follow these steps:
 1.  **Clone the repository:**
    
 ```
-     git clone https://github.com/your-username/inventory-management-backend.git cd inventory-management-backend
+git clone https://github.com/francomceballos/Inventarios-APP-Backend-Java.git
+cd Inventarios-APP-Backend-Java
 ```
 2. **Set up the database:**
 

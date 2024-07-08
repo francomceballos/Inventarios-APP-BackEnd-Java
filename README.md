@@ -45,10 +45,11 @@ To run this application locally, follow these steps:
 
 	Update the `application.properties` file located in `src/main/resources/` with your database credentials:
 
-    spring.datasource.url=jdbc:mysql://localhost:3306/your-database
-    spring.datasource.username=your-username
-    spring.datasource.password=your-password
-    spring.jpa.hibernate.ddl-auto=update
+`spring.datasource.url=jdbc:mysql://localhost:3306/your-database 
+spring.datasource.username=your-username  
+spring.datasource.password=your-password 
+spring.jpa.hibernate.ddl-auto=update`
+
     
 5. Build and run the application:
 

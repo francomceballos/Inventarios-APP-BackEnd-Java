@@ -35,11 +35,8 @@ To run this application locally, follow these steps:
 ```
 2. **Set up the database:**
 
--   Create a MySQL database.
--   Import the database schema using `database.sql` located in the `sql` directory.
-```
-    mysql -u your-username -p your-database < sql/database.sql
-```
+ - Running the application for the first time will create the database.
+   
 3. **Configure database credentials:**
 
 	Update the `application.properties` file located in `src/main/resources/` with your database credentials:

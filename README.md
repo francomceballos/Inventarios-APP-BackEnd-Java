@@ -1,91 +1,91 @@
 # Gestión de Inventarios (Backend)
 
-## Descripción
+Description
 
-Este es un proyecto de backend para la gestión de inventarios desarrollado en Java utilizando Spring Boot. La aplicación permite a los usuarios gestionar productos, realizar seguimiento del inventario, y generar reportes sobre el estado del mismo. El frontend de la aplicación se encuentra en un repositorio separado.
-Características
+This is a backend project for inventory management developed in Java using Spring Boot. The application allows users to manage products, track inventory, and generate reports on its status. The frontend of the application is located in a separate repository.
+Features
 
-    API RESTful para la gestión de inventarios.
-    Endpoints para añadir, editar y eliminar productos.
-    Endpoints para consultar el inventario disponible.
-    Generación de reportes detallados de inventario.
-    Búsqueda avanzada de productos.
+    RESTful API for inventory management.
+    Endpoints to add, edit, and delete products.
+    Endpoints to query available inventory.
+    Detailed inventory report generation.
+    Advanced product search.
 
-## Tecnologías Utilizadas
+Technologies Used
 
-    Lenguaje de Programación: Java
+    Programming Language: Java
     Framework: Spring Boot
-    Librerías: Lombok, Jakarta
-    Base de Datos: MySQL (o cualquier otro sistema de gestión de bases de datos)
-    Herramienta de Construcción: Maven
+    Libraries: Lombok, Jakarta
+    Database: MySQL (or any other database management system)
+    Build Tool: Maven
 
-## Requisitos
+Requirements
 
-    JDK 11 o superior
+    JDK 11 or higher
     Maven
-    MySQL (o cualquier otro sistema de gestión de bases de datos)
+    MySQL (or any other database management system)
 
-## Instalación
-1. Clonar el repositorio
-
-bash
-
-git clone https://github.com/tu-usuario/gestion-inventarios-backend.git
-cd gestion-inventarios-backend
-
-2. Configurar la base de datos
-
-    Crear una base de datos en MySQL.
-    Importar el script de la base de datos database.sql que se encuentra en el directorio sql.
+Installation
+1. Clone the repository
 
 bash
 
-mysql -u tu-usuario -p tu-base-de-datos < sql/database.sql
+git clone https://github.com/your-username/inventory-management-backend.git
+cd inventory-management-backend
 
-3. Configurar las credenciales de la base de datos
+2. Set up the database
 
-Editar el archivo src/main/resources/application.properties con las credenciales de tu base de datos.
+    Create a database in MySQL.
+    Import the database script database.sql located in the sql directory.
+
+bash
+
+mysql -u your-username -p your-database < sql/database.sql
+
+3. Configure database credentials
+
+Edit the src/main/resources/application.properties file with your database credentials.
 
 properties
 
-spring.datasource.url=jdbc:mysql://localhost:3306/tu-base-de-datos
-spring.datasource.username=tu-usuario
-spring.datasource.password=tu-contraseña
+spring.datasource.url=jdbc:mysql://localhost:3306/your-database
+spring.datasource.username=your-username
+spring.datasource.password=your-password
 spring.jpa.hibernate.ddl-auto=update
 
-4. Construir el proyecto
+4. Build the project
 
 bash
 
 mvn clean install
 
-Uso
-1. Ejecutar la aplicación
+Usage
+1. Run the application
 
 bash
 
 mvn spring-boot:run
 
-2. Interacción con la API
+2. Interact with the API
 
-Puedes interactuar con la API utilizando herramientas como Postman o cURL. Los endpoints disponibles son:
+You can interact with the API using tools like Postman or cURL. The available endpoints are:
 
-    GET /api/products - Obtener todos los productos
-    GET /api/products/{id} - Obtener un producto por ID
-    POST /api/products - Añadir un nuevo producto
-    PUT /api/products/{id} - Actualizar un producto
-    DELETE /api/products/{id} - Eliminar un producto
+    GET /api/products - Get all products
+    GET /api/products/{id} - Get a product by ID
+    POST /api/products - Add a new product
+    PUT /api/products/{id} - Update a product
+    DELETE /api/products/{id} - Delete a product
 
-Contribuciones
+Contributions
 
-Las contribuciones son bienvenidas. Por favor, sigue los siguientes pasos para contribuir:
+Contributions are welcome. Please follow these steps to contribute:
 
-    Realiza un fork del proyecto.
-    Crea una nueva rama (git checkout -b feature/nueva-funcionalidad).
-    Realiza los cambios necesarios y realiza un commit (git commit -am 'Añadir nueva funcionalidad').
-    Sube los cambios a tu repositorio (git push origin feature/nueva-funcionalidad).
-    Crea un nuevo Pull Request.
+    Fork the project.
+    Create a new branch (git checkout -b feature/new-feature).
+    Make necessary changes and commit (git commit -am 'Add new feature').
+    Push changes to your repository (git push origin feature/new-feature).
+    Create a new Pull Request.
 
-Licencia
+License
 
-Este proyecto está bajo la licencia MIT. Para más detalles, consulta el archivo LICENSE.
+This project is licensed under the MIT License. For more details, see the LICENSE file.

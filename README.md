@@ -25,10 +25,6 @@ To run this application locally, follow these steps:
 -   JDK 11 or higher
 -   Maven
 -   MySQL
-
-### Installation
-
-1.  **Clone the repository:**
     
    ### Installation
 

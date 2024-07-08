@@ -50,11 +50,17 @@ To run this application locally, follow these steps:
     spring.jpa.hibernate.ddl-auto=update
 ```
     
-4. Build and run the application:
-```
-    mvn clean install 
-    mvn spring-boot:run
-```
+4. ** Run the project using Your IDE **
+
+    Open the project:
+
+    Open your preferred IDE (like IntelliJ IDEA, Eclipse, or VS Code).
+
+    Build and run the application:
+        Import the project into your IDE.
+        Build the project using Maven.
+        Run the application as a Spring Boot application.
+   
 ### Usage
 
 Once the application is running, you can interact with the API using tools like Postman or cURL:
